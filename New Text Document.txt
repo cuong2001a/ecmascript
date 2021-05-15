@@ -1,0 +1,38 @@
+Website
+- Home page
+- About page
+- Product pages
+- Detail Product Page
+- Contact
+Admin
+- Dashboard
+- Product Manager
+    - Product
+    - Category
+- Contact Manager
+
+--- Chức năng ---- 
+- Router
+- Giỏ hàng
+- Thanh toán
+- Phân trang
+- Filter
+- sort
+- Search
+- Đăng nhập, Đăng ký
+Phần 1: Khởi tạo project
+    1. Tạo folder frontend/src
+    2. Bật terminal: npm init -y trong folder frontend
+    2.1: Tạo file index.js trong thư mục src
+    3. Cài đặt webpack: npm i -d webpack webpack-dev-server webpack-cli 
+    4. Tạo file index.html trong thư mục frontend
+    5. <script src="main.js"></script>
+    6. thiết lập id="main-content"
+    5. Chỉnh sửa file package.json
+              "start": "webpack serve --open --mode development"
+    6. Chạy câu lệnh : npm start
+    7. Xem kết
+ "build:css": "npx tailwindcss-cli@latest build tailwind.css -o assets/css/tailwind.css"
+1. npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+2. npx tailwindcss init
+3.  "build:css": "npx tailwindcss-cli@latest build tailwind.css -o assets/css/tailwind.css"
